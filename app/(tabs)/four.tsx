@@ -2,7 +2,7 @@ import { Image, StyleSheet } from 'react-native';
 
 import { Text, View } from '@/components/Themed';
 
-export default function TabTwoScreen() {
+export default function TabThreeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Ejercicios para Frontend</Text>
@@ -11,15 +11,17 @@ export default function TabTwoScreen() {
         lightColor="#eee"
         darkColor="rgba(255,255,255,0.1)"
       />
-      <Text style={styles.subtitle}>Ejercicio 2</Text>
+      <Text style={styles.subtitle}>Ejercicio 4</Text>
       <View style={{ marginBottom: 20, marginLeft: 15, marginRight: 15 }}>
-        <Text>Implementar un mapa de asientos con estados: libre, ocupado y seleccionado</Text>
+        <Text>Integrar el explorar ideas de Pinterest para buscar imagenes</Text>
         <Text>Debe contener:</Text>
-        <Text>• Al abrir la app, los ocupados cambian aleatoriamente. Siempre debe quedar entre 1 y una cantidad propuesta de asientos libres.</Text>
-        <Text>• Animaciones de escala/tono al tocar. Agrupar asientos por fila y pasillo.</Text>
+        <Text>• Barra de búsqueda (placeholder claro) para filtrar por keyword (ej: travel, food, design).</Text>
+        <Text>• Infinite scroll</Text>
+        <Text>• Vista previa (modal) al tocar una imagen (mostrar imagen grande y autor).</Text>
+        <Text>• Integrar Unsplash para mostrar las imagenes.</Text>
       </View>
       <Image
-        source={{uri: "https://www.shutterstock.com/image-vector/seats-plane-map-booking-ui-600nw-2235499657.jpg",}}
+        source={{uri: "https://infosertecla.com/wp-content/uploads/2020/02/200226-8.jpg",}}
         style={{ width: "80vw", height: 200 }}
       />
     </View>
