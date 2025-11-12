@@ -25,7 +25,7 @@ Dentro de la carpeta app/(tabs) se encuentran las instrucciones para construir c
 
 Posteriormente crear un repositorio con sus soluciones y subirlos al campus virtual.
 
-Plazo de entrega Viernes 14/11 hasta las 23:59 hrs.
+Plazo de entrega Miercoles 12/11 hasta las 23:59 hrs.
 
 
 ## Credits
